@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSD.DotNet.Utilities", "MSD.DotNet.Utilities\MSD.DotNet.Utilities.csproj", "{47465175-B817-4591-8EDB-D1E468842D5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSD.DotNet.Utilities.UnitTests", "MSD.DotNet.Utilities.UnitTests\MSD.DotNet.Utilities.UnitTests.csproj", "{5D79E313-F237-40BC-B7BB-C046E2E9D53B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{47465175-B817-4591-8EDB-D1E468842D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47465175-B817-4591-8EDB-D1E468842D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47465175-B817-4591-8EDB-D1E468842D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D79E313-F237-40BC-B7BB-C046E2E9D53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D79E313-F237-40BC-B7BB-C046E2E9D53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D79E313-F237-40BC-B7BB-C046E2E9D53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D79E313-F237-40BC-B7BB-C046E2E9D53B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
