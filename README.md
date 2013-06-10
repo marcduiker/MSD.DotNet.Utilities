@@ -1,4 +1,4 @@
 MSD.DotNet.Utilities
 ====================
 
-A utilities library for my C# projects.
+Nothing special folks. Just a utilities library for my C# projects. Move on now...
