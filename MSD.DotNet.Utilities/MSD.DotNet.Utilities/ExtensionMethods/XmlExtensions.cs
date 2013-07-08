@@ -1,20 +1,19 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Xml.Linq;
-
-
-namespace MSD.DotNet.Utilities.ExtensionMethods
+﻿namespace MSD.DotNet.Utilities.ExtensionMethods
 {
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text.RegularExpressions;
+    using System.Xml.Linq;
+
     public static class XmlExtensions
     {
         /// <summary>
         /// Returns XElements that match the given regex pattern.
-        /// the element is not found.
+        /// If no elements match an empty list is returned.
         /// </summary>
         /// <param name="element">Parent XElement where the search will start.</param>
-        /// <param name="regexPattern">Regular expression pattern to match the XElements.</param>
-        /// <returns>XElements which match the regex pattern.</returns>
+        /// <param name="regexPattern">Regular expression to match the XElements.</param>
+        /// <returns>XElements that match the regex pattern.</returns>
         public static List<XElement> GetElements(this XElement element, string regexPattern, RegexOptions regexOptions = RegexOptions.None, bool useDescendants = false)
         {
             IEnumerable<XElement> result;
@@ -27,7 +26,7 @@ namespace MSD.DotNet.Utilities.ExtensionMethods
             {
                 result = element.Elements().Where(el => Regex.IsMatch(el.Name.ToString(), regexPattern, regexOptions));
             }
-            
+
             if (result != null)
             {
                 return result.ToList();

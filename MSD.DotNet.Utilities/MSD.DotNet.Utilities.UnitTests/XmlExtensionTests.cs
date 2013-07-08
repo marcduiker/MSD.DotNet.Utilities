@@ -6,6 +6,7 @@
     using MSD.DotNet.Utilities.ExtensionMethods;
     using NUnit.Framework;
 
+    [TestFixture]
     public class XmlExtensionTests
     {
         [Test]
