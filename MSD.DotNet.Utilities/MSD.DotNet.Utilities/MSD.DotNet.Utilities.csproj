@@ -39,12 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DateTime\IDateTime.cs" />
+    <Compile Include="ExtensionMethods\DateTimeExtensions.cs" />
     <Compile Include="ExtensionMethods\DirectoryInfoExtensions.cs" />
     <Compile Include="ExtensionMethods\IEnumerableExtensions.cs" />
+    <Compile Include="ExtensionMethods\XmlExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DateTime\" />
     <Folder Include="Reflection\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

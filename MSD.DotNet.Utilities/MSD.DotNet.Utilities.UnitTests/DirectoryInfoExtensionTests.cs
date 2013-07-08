@@ -1,13 +1,13 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text.RegularExpressions;
-using MSD.DotNet.Utilities.ExtensionMethods;
-using NUnit.Framework;
-
-namespace MSD.DotNet.Utilities.UnitTests
+﻿namespace MSD.DotNet.Utilities.UnitTests
 {
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+    using System.Text.RegularExpressions;
+    using MSD.DotNet.Utilities.ExtensionMethods;
+    using NUnit.Framework;
+
     [TestFixture]
     public class DirectoryInfoExtensionTests
     {

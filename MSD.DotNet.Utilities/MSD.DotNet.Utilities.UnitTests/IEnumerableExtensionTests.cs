@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using MSD.DotNet.Utilities.ExtensionMethods;
-using NUnit.Framework;
-
-namespace MSD.DotNet.Utilities.UnitTests
+﻿namespace MSD.DotNet.Utilities.UnitTests
 {
+    using System.Collections.Generic;
+    using MSD.DotNet.Utilities.ExtensionMethods;
+    using NUnit.Framework;
+
     public class IEnumerableExtensionTests
     {
         [Test]
